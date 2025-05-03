@@ -27,10 +27,10 @@ setup = function() {
    }
    
   var i= 0;
-  varflowerY= 30; 
-  while ( i<myFlowers.length) {
-  text (myFlowers[i],10, flowersY);
-  Flowery+=40;
+  var FlowersY= 30; 
+  while ( i<MyFlowers.length) {
+  text (MyFlowers[i],10, FlowersY);
+  FlowersY+=40;
   i++;
   
   
@@ -49,17 +49,17 @@ setup = function() {
   */
 fill(255,0,255);
 textSize(30);
-text("Spring Animals", 20, 350);
+text("spring Animals", 20, 350);
 
-var SpringAnimals = ["horse 🐎", "dove 🕊️", "beaver 🦫", "duck 🦆"];
-fill(255,255,255);
+var springAnimals = ["horse 🐎", "dove 🕊️", "beaver 🦫", "duck 🦆"];
+fill(255, 255, 255);
 textSize(40);
 
 /*
-var animalNum= 0;
-while(animalNum < springAnimals.length){
-text(springAnimals[animalNum], 50, 110 + animalNum*10); 
-animalNum ++;
+var AnimalsNum= 0;
+while(AnimalsNum < springAnimals.length){
+text(springAnimals[AnimalsNum], 50, 110 + AnimalsNum*10); 
+AnimalsNum ++;
 
 
 }
